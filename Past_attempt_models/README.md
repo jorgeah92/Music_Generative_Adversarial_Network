@@ -1,1 +1,9 @@
 # Past attempts folder
+
+This folder contains code used for past approaches to testing the generation of piano music using the Maestro dataset.
+
+* gan_piano.py - a modified version of the Pokemon article GAN code. This file was tweaked to enable it to train with the maestro dataset
+* piano_lstm.py - a modified version fo the Pokemon article LSTM code. Modified to train with the Maestro dataset
+* gan_luke.py - a modified version of gan_piano.py to try to incorporate the main parsing approach used with our image GAN attempt
+
+**Pokemon article link:** https://towardsdatascience.com/generating-pokemon-inspired-music-from-neural-networks-bc240014132

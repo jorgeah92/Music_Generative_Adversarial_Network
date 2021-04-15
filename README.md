@@ -12,5 +12,5 @@ The repo is split into various folder to help organize our content:
 
 One this main section of the repo, there are 3 files that all contain our final model:
 * Final_generator_model.zip - contains a saved trained model of our GAN generator in the h5 format
-* gan_training.py - a python script version of our final model used to train our model on AWS 
+* gan_training.py - A python script version of our final model used to train our model on AWS 
 * image_GAN_midi_Final.ipynb - A notebook version of our final model which we used to explore our model and outputs
