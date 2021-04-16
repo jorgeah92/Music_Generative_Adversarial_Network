@@ -16,6 +16,17 @@ One this main section of the repo, there are 3 files that all contain our final 
 * gan_training.py - A python script version of our final model used to train our model on AWS 
 * image_GAN_midi_Final.ipynb - A notebook version of our final model which we used to explore our model and outputs
 
+
+## AWS Instance Specifications
+
+An AWS instance was used to train the GAN models for both 1000 epochs with training set size 200,000 and 2000 epoch with training set size 15,000.
+
+Instance used:
+* Location of servers - N. California
+* Deep Learning AMI (Ubuntu 18.04) Version 42.1 - ami-0f2dda3eb2d4dfba0
+* Instance type - g4dn.2xlarge
+
+
 ## NX deployment
 The NX deployment for this project pretty straightforward, as we already trained the model that can be loaded on the NX.
 * First we need to setup an NGC container, we used the below command to create it
