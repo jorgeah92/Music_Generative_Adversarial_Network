@@ -4,7 +4,7 @@ w251 final project - Spring 2021 UC Berkeley
 
 ## This repo contains all of the code used and tested for our final project for w251 Spring 2021
 
-The repo is split into various folder to help organize our content:
+The repo is split into various folder to help organize our content. Each folder has its on Readme with descriptions of the content files:
 * Gener_songs - contains samples of generated songs from our models
 * maestro-v3.0.0 - the Maestro dataset from Google
 * Parsed_data - contains code for various ways of parsing the maestro and a saved numpy array of the parsed maestro files
