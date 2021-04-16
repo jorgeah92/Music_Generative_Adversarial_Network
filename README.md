@@ -1,5 +1,6 @@
 # deep_learning_project
 w251 final project - Spring 2021 UC Berkeley
+
 **Members: Jorge Hernandez, Luke Verdi, Tom Nguyen, Hao Wu**
 
 ## This repo contains all of the code used and tested for our final project for w251 Spring 2021
