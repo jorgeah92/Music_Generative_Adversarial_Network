@@ -18,8 +18,8 @@ One this main section of the repo, there are 3 files that all contain our final 
 ## NX deployment
 The NX deployment for this project pretty straightforward, as we already trained the model that can be loaded on the NX.
 * First we need to setup an NGC container, we used the below command to create it
-- sudo docker pull nvcr.io/nvidia/l4t-ml:r32.4.2-py3
+  - sudo docker pull nvcr.io/nvidia/l4t-ml:r32.4.2-py3
 * We made separate directory to store the notebooks and connected it to the container environment when running the image via the commends below.
-- mkdir ~/notebooks
-- sudo docker run -it --rm -v $PWD/notebooks:/notebooks --runtime nvidia --network host nvcr.io/nvidia/l4t-ml:r32.4.2-py3
+  - mkdir ~/notebooks
+  - sudo docker run -it --rm -v $PWD/notebooks:/notebooks --runtime nvidia --network host nvcr.io/nvidia/l4t-ml:r32.4.2-py3
 * It then allows to open a jupyter lab server in our NX browser where we ran the notebook in our Jetson environment to load the model and output the music. The notebook we ran can be referred in this repo in the NX deployment folder.
