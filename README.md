@@ -1,4 +1,4 @@
-# deep_learning_project
+# Music Generative Adversarial Network
 w251 final project - Spring 2021 UC Berkeley
 
 **Members: Jorge Hernandez, Luke Verdi, Tom Nguyen, Hao Wu**
